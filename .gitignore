@@ -1,0 +1,15 @@
+# dev
+/dev/
+/pretrained_model/
+/datafiles/
+
+
+# __pycache__
+**/__pycache__
+
+# 
+**.sh
+**.html
+/exercise_dev.ipynb
+
+
