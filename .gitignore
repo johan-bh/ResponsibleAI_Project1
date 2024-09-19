@@ -2,7 +2,8 @@
 /dev/
 /pretrained_model/
 /datafiles/
-
+.venv/
+/data/
 
 # __pycache__
 **/__pycache__
