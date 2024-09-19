@@ -3,6 +3,8 @@
 /pretrained_model/
 /datafiles/
 
+/data
+/ENV
 
 # __pycache__
 **/__pycache__
