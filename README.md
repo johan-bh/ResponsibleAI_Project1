@@ -7,3 +7,7 @@ This reposority is the 1st project for RAI course. More details please go to [th
 Nina Weng (ninwe@dtu.dk)
 Aasa Feragen (afhar@dtu.dk)
 
+
+NB: what they're fishing for
+
+Figure out how the different choices affect sensitive variables / demographics. They want us to see the effect wrt. fairness when we systematically corrupt the data.

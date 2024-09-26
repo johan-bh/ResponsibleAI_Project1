@@ -83,7 +83,8 @@ class ResNet(nn.Module):
         self.model.eval()
         with torch.no_grad():
             outputs = self.model(X_tensor)
-            _, predicted = torch.max(outputs, 1)
+            prob = torch.sigmoid(outputs) if self.num_classes == 1 else torch.softmax(outputs, dim=1)
+            predicted = (prob > 0.5).float()
         return predicted.cpu().detach().numpy()
     
     def predict_proba(self, X):
